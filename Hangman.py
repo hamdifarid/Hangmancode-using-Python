@@ -6,7 +6,7 @@ while True:
         allText = file.read()
         words = list(map(str, allText.split()))
         word = random.choice(words)
-    lives = 13
+    lives = 2*len(word)
     wl = list(word)
     print('Number of letters in the word are ',len(word),'And the number of lives are',lives)
     rl = len(word)
